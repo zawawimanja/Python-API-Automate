@@ -17,6 +17,7 @@ An easy way to get started with a Express server offering a REST API with Node.j
 - `npm install`
 - `npm start`
 - optional: include _.env_ in your _.gitignore_
+- install curl
 
 ##  Endpoints
 
