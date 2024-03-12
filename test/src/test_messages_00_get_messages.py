@@ -8,14 +8,6 @@ url = 'http://localhost:3000/messages';
 headers = {'Content-Type': 'application/json' }
 
 
-import requests
-
-# Define the URL for retrieving messages
-url = 'http://localhost:3000/messages'
-
-# Define the headers
-headers = {'Content-Type': 'application/json'}
-
 def test_get_messages_no_filter():
     # Send a GET request to retrieve messages
     resp = requests.get(url, headers=headers)
